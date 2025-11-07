@@ -35,7 +35,7 @@ Deze opdrachten zijn done als:
 - [ ] jouw individuele werk uitgebreid is gedocumenteerd in issues, commits en pull-requests (user story, schetsen, ontwerpverkenning, ontwerpbeslissingen, code-onderzoek en codevoorbeelden)
 - [ ] de dev-branch van de website gepubliceerd staat en een live url heeft
 
-<!—
+<!--
 Komt in week 3 aan bod.. nog even laten staan plx >.<
 De component library (letterlijk: een bibliotheek met componenten) die je gaat maken bestaat uit een serie herbruikbare bouwblokken voor een opdrachtgever in een apart project. Het voordeel van het gebruiken van een component library is dat alle projecten die voor deze opdrachtgever gemaakt worden terug kunnen verwijzen naar dezelfde component library. 
 
@@ -81,4 +81,4 @@ Het opzetten van de structuur voor een component library is een beetje een gedoe
 - [How to Publish Your First npm Package](https://bretcameron.medium.com/how-to-publish-your-first-npm-package-b224296fc57b)
 - [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
 
-—>
+-->

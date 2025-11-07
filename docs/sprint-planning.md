@@ -6,15 +6,17 @@ Project en werkzaamheden plannen met je team.
 
 ### Aanpak
 
-In [Sprint 14: Lose Your Head](https://github.com/fdnd-task/lose-your-head-the-client-case) ben je begonnen met het ontwerpen en maken van een opdracht voor een opdrachtgever met een framework en headless CMS. Daarbij stond het framework (Sveltekit) en het headless CMS (Directus) vast. In [Sprint 15: Choices, Choices](https://github.com/fdnd-task/choices-choices-the-tech-stack) Heb je met je team verder gewerkt aan het project. Jullie hebben pagina’s 
+In [Sprint 14: Lose Your Head](https://github.com/fdnd-task/lose-your-head-the-client-case) ben je begonnen met het ontwerpen en maken van een opdracht voor een opdrachtgever met een framework en headless CMS. Daarbij stond het framework (Sveltekit) en het headless CMS (Directus) vast. In [Sprint 15: Choices, Choices](https://github.com/fdnd-task/choices-choices-the-tech-stack) heb je met je team verder gewerkt aan het project. Jullie site staat gepubliceerd op Netlify en is bereikbaar via een dev-link. Beoogde pagina’s zijn uitgewerkt en bereikbaar via de navigatie of interne links én jullie site is mobile-first, responsive en accessible. Ook is jullie website getest en zijn testresultaten navolgbaar verwerkt.
 
+Deze sprint werken jullie verder aan de structuur van de site door elk tenminste een component volgens de RAPPE principes in detail te ontwerpen en ontwikkelen. Je gebruikt daarbij container queries (the new responsive) om alle uitingen (lees verschillende breedte’s) van jouw component in CSS uit te werken. 
 
-en heb je zelfstandig een aantal andere frameworks geinstalleerd.
 
 retrospective insights > sprint-planning
 afspraken mentoring dag
 
 ### Teamwerk
+
+Het is de bedoeling dat je aan het einde van deze sprint met je team een nette component-library hebt ingericht waarin veel van de nodige functionaliteit van je project is uitgewerkt.
 
 Het is de bedoeling dat je aan het einde van deze sprint alle pagina’s van de site van de opdrachtgever *mobile-first*, *responsive* en *accessible* hebt uitgewerkt. Als je database nog niet goed is, of als de opdrachtgever nog niet door komt met informatie dan zet je met dummy-content alvast wat zaken klaar zodat je wél met de HTML en CSS door kunt.
 
