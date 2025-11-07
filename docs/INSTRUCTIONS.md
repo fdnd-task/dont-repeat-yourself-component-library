@@ -14,17 +14,15 @@ Tijdens deze sprint worden een aantal workshops aangeboden waar verschillende op
 - [Sprint Planning](sprint-planning.md)
 - [Component as a Building Block](component-as-a-building-block.md)
 - [The New Responsive](the-new-responsive.md)
-- [Code/Design Review](CDr.md)
 - [Stagemarkt](stagemarkt.md)
 
 - Advanced Components Concepts
 - Typografie in Webdesign
-- Code/Design Review
+- [Code/Design Review](CDr2.md)
 
 - Sveltekit anti-patterns
 - Wrap-up
-- Retrospect
-- Refinement
+- Retrospect / Refinement
 
 ## Definition of done
 
@@ -38,8 +36,7 @@ Deze opdrachten zijn done als:
 - [ ] de dev-branch van de website gepubliceerd staat en een live url heeft
 
 <!—
-Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt. De development lifecycle bestaat uit de stappen: Analyseren, Ontwerpen, Bouwen, Integreren en Testen.
-
+Komt in week 3 aan bod.. nog even laten staan plx >.<
 De component library (letterlijk: een bibliotheek met componenten) die je gaat maken bestaat uit een serie herbruikbare bouwblokken voor een opdrachtgever in een apart project. Het voordeel van het gebruiken van een component library is dat alle projecten die voor deze opdrachtgever gemaakt worden terug kunnen verwijzen naar dezelfde component library. 
 
 Door op deze manier te werken wordt de *developer experience* (hierna DX) beter omdat: 
@@ -49,7 +46,7 @@ Door op deze manier te werken wordt de *developer experience* (hierna DX) beter 
 4. Bugs oplossen eenvoudiger wordt
 5. Samenwerken makkelijker wordt
 
-Het omarmen van deze ontwikkelstrategie vereist wel enig schakelen in de manier waarop je over code denkt. Het wordt abstracter omdat er meer afhankelijkheden en abstracties in je code gaan plaatsvinden. Je gaat bijvoorbeeld denken in termen van NPM packages in plaats van in componenten in één repository. Waarschijnlijk heb je ergens tijdens de vorige sprints de kracht van componenten in een lokaal project al ontdekt, nu is het tijd om externe componenten in te laden!
+Het omarmen van deze ontwikkelstrategie vereist wel enig schakelen in de manier waarop je over code denkt. Het wordt abstracter omdat er meer afhankelijkheden en abstracties in je code gaan plaatsvinden. Je gaat bijvoorbeeld denken in termen van packages in plaats van in componenten in één repository. Waarschijnlijk heb je ergens tijdens de vorige sprints de kracht van componenten in een lokaal project al ontdekt, nu is het tijd om externe componenten in te laden!
 
 ### Aanpak
 
@@ -60,7 +57,7 @@ In deze leertaak vind je slechts een partiële instructie, namelijk voor het [op
 Het opzetten van de structuur voor een component library is een beetje een gedoe maar het loont als je dit eenmaal gedaan hebt.
 
 1. Fork deze leertaak, in deze leertaak ga je de implementatie van de component library maken. Met andere woorden, je linkt in deze repository een andere repository welke de component library bevat.
-2. Maak een nieuwe repository aan op jouw GitHub omgeving, geef deze een logische naam, bijvoorbeeld: fdnd-components, bij de volgende stappen staat *CLib* als het om deze ‘andere’ repository gaat.
+2. Maak een nieuwe repository aan op jouw GitHub omgeving, geef deze een logische naam, bijvoorbeeld: @projectnaam/components, bij de volgende stappen staat *CLib* als het om deze ‘andere’ repository gaat.
 3. *CLib* Initialiseer een nieuw SvelteKit library project!
 4. *CLib* Check package.json voor de benodigde scripts. Als alles gelukt is zie je het commando `package` bij het lijstje staan.
 5. *CLib* Maak om te testen een nieuw eenvoudig component aan in de /src/lib map, bijvoorbeeld `HelloWorld.svelte`
@@ -84,13 +81,4 @@ Het opzetten van de structuur voor een component library is een beetje een gedoe
 - [How to Publish Your First npm Package](https://bretcameron.medium.com/how-to-publish-your-first-npm-package-b224296fc57b)
 - [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
 
-#### Doorontwikkeling (individueel)
-
-Als de structuur staat kan je verder gaan aan de ontwikkeling voor jouw opdrachtgever. Eventueel kan je wat tijd besteden aan het overhevelen van herhaalde stukken code uit je oude projecten maar dat hoeft niet per se, je kunt ook opnieuw beginnen.
-
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
-2. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
-3. Documenteer je proces a.h.v de development life cycle
-4. En schrijf een goede readme
-5. Ga terug naar 1 tot de sprint voorbij is.
 —>
