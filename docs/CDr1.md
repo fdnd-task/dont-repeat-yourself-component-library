@@ -1,4 +1,4 @@
-# Don't Repeat Yourself
+# Don't Repeat Yourself - Component Library
 
 ## Code/Design review - Component
 Waarbij je feedback geeft en krijgt op het component dat je aan het ontwerpen en maken bent. 
