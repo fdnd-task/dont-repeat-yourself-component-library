@@ -2,7 +2,7 @@
 
 ## The New Responsive
 
-Waarin je leert over media queries, container queries en user-reference queries
+Waarin je leert over media queries, container queries en user-preference queries
 
 ### Aanpak
 
@@ -209,4 +209,5 @@ misschien over de werkwijze? varieren: convergeren, divergeren. Of over kleurgeb
 
 
 -->
+
 
