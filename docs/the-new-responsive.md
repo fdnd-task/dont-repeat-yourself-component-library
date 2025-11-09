@@ -6,7 +6,15 @@ Waarin je leert over media queries, container queries en user-reference queries
 
 ### Aanpak
 
+<!-- 
+N.B.: Zorg er voor dat stap 1 t/m 5 voor woensdag zijn afgerond. Tijdens de les over the new responsive wordt aandacht gegeven aan container queries, het is belangrijk dat je de ontwerpfase dan afgerond hebt!
 
+Beschrijf tekstueel de functie en eigenschappen die het component heeft. Het is handig als je met iemand uit je team overlegt om te bepalen of het idee wat je hebt bij het component volledig is. Meestal plaats je deze tekst in de issue of sub-issue.
+Maak (op papier!) een morphologische kaart om variatie in de uitwerking van het component te onderzoeken. Elke functie kan immers op veel verschillende manieren uitgewerkt worden en een goed onderbouwde keuze heeft minstens een aantal alternatieven onderzocht.
+Onderweg zoek je inspiratie op het web, kijk naar hoe anderen bepaalde dingen hebben aangepakt. Bewaar de door jou gevonden inspiratie door screenshots in Figma bij elkaar te plaatsen. [divergeren]
+Gebruik jouw morphologische kaart om vijf variaties te genereren. Werk deze variaties grof uit in Figma door een LoFi wireframe te ‘schetsen’. [divergeren]
+Beargumenteer welke variatie of combinatie van eigenschappen van variaties je uiteindelijk kiest. [convergeren]
+-->
 
 <!--
 
@@ -201,3 +209,4 @@ misschien over de werkwijze? varieren: convergeren, divergeren. Of over kleurgeb
 
 
 -->
+
