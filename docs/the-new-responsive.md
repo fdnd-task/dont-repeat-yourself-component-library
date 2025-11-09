@@ -1,4 +1,4 @@
-# Don't repeat yourself
+# Don't repeat yourself - Component Library
 
 ## The New Responsive
 
@@ -209,5 +209,6 @@ misschien over de werkwijze? varieren: convergeren, divergeren. Of over kleurgeb
 
 
 -->
+
 
 
