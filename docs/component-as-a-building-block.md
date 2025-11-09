@@ -1,14 +1,11 @@
-# Don't Repeat Yourself - Component Library
+# Don't Repeat Yourself
 
 ## Component as a Building Block
 
 Ontwerp en ontwikkel een component voor jouw component library.
 
-## Doel van deze opdracht
-
-Het ontwikkelen van een component voor een component library zorgt voor herbruikbaarheid, consistentie en schaalbaarheid binnen projecten. Het maakt samenwerking tussen teams eenvoudiger, versnelt de ontwikkeling en verbetert de onderhoudbaarheid van de code.
-
 ## Aanpak
+Het ontwikkelen van een component voor een component library zorgt voor herbruikbaarheid, consistentie en schaalbaarheid binnen projecten. Het maakt samenwerking tussen teams eenvoudiger, versnelt de ontwikkeling en verbetert de onderhoudbaarheid van de code.
 
 N.B.: Zorg er voor dat stap 1 t/m 5 voor woensdag zijn afgerond. Tijdens de les over *the new responsive* wordt aandacht gegeven aan container queries, het is belangrijk dat je de ontwerpfase dan afgerond hebt!
 
