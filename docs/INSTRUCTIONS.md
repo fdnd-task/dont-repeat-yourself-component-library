@@ -14,15 +14,16 @@ Tijdens deze sprint worden een aantal workshops aangeboden waar verschillende op
 - [Sprint Planning](sprint-planning.md)
 - [Component as a Building Block](component-as-a-building-block.md)
 - [The New Responsive](the-new-responsive.md)
-- [Stagemarkt](stagemarkt.md)
+- [Code/Design Review - Component](CDr1.md)
+<!-- - [Stagemarkt](stagemarkt.md) -->
+ 
+- [Advanced Component Concepts](advanced-component-concepts.md)
+- [Typografie in Webdesign](typografie-in-webdesign.md)
+- [Code/Design Review - Component Library](CDr2.md)
 
-- Advanced Components Concepts
-- Typografie in Webdesign
-- [Code/Design Review](CDr2.md)
-
-- Sveltekit anti-patterns
-- Wrap-up
-- Retrospect / Refinement
+- [Sveltekit anti-patterns](sveltekit-anti-patterns.md)
+- [Wrap-up](wrap-up.md)
+- [Retrospect / Refinement](retrospect.md)
 
 ## Definition of done
 
