@@ -9,13 +9,14 @@ Je leert hoe je herbruikbare stukken code op een systematische manier ontsluit z
 
 ## Werkwijze
 
-Tijdens deze sprint worden een aantal workshops aangeboden waar verschillende opdrachten in aan bod komen:
+Tijdens deze sprint worden een aantal workshops aangeboden waar verschillende opdrachten in aan bod komen. 
+
+Er staat ook een [Stagemarkt](stagemarkt.md) op het programma waar bedrijven en studenten kunnen kennismaken. In de studio kunnen de bedrijven en studenten vooruitkijken op een mogelijke afstudeerstage. 
 
 - [Sprint Planning](sprint-planning.md)
 - [Component as a Building Block](component-as-a-building-block.md)
 - [The New Responsive](the-new-responsive.md)
 - [Code/Design Review - Component](CDr1.md)
-<!-- - [Stagemarkt](stagemarkt.md) -->
 - [Advanced Component Concepts](advanced-component-concepts.md)
 - [Typografie in Webdesign](typografie-in-webdesign.md)
 - [Code/Design Review - Component Library](CDr2.md)
