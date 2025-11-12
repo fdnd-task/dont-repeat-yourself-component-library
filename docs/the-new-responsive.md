@@ -40,7 +40,7 @@ _Responsive to the Form Factor_ betekent dat een website zich ook aanpast aan de
 ![](the-new-responsive-samsung-s-fold.webp)<br>
 _Design prototype voor de Samsug S Fold_
 
-Om hier layouts voor te maken zijn _Viewport Segments API_ bedacht. Dit is nog in de experimentele fase, nog niet alle moderne browsers ondersteunen dit. Maar dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
+Om hier layouts voor te maken zijn _Viewport Segments API_ bedacht. Dit is nog in de experimentele fase, nog niet alle moderne browsers ondersteunen dit.  dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
 
 ### 👉 Opdracht Foldable screens
 
@@ -54,10 +54,10 @@ Maak in jullie Figma een template voor verschillende _fold_ schermen en werk een
 
 Lees met je team de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel.
 
-#### Could Have
+#### 🕜 Hoe hiermee verder?
 Maak een issue aan met jullie design ideeën, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
 
-### Bronnen 
+#### Bronnen 
 - [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
 - [Responsive Design / Screen configurations](https://web.dev/learn/design/screen-configurations/)
 - [Viewport Segments API](https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API)
@@ -96,6 +96,7 @@ prefers-reduced-motion, prefers-contrast, prefers-color-scheme en inverted-color
 
 Maak per variatie een breakdown, onderzoek hoe je de media feature in CSS goed kan gebruiken. 
 
+#### 🕜 Hoe hiermee verder?
 Maak een issue aan zodat je hier later mee verder kan. Documenteer je onderzoek in het issue. 
 
 
@@ -123,7 +124,10 @@ Werk je eigen component in detail uit in Figma. Hou er rekening mee dat het comp
 
 Maak een breakdown met breakpoints, onderzoek en noteer hoe je het component met container queries kan bouwen. 
 
-Maak een bijpassend issue, verzamel je schetsen en onderzoek. 
+#### 🕜 Hoe hiermee verder?
+Maak een bijpassend issue, verzamel je schetsen en onderzoek. Maak je component met _component queries_ voor 'the new responsive'!
+
+Container queries worden god uitgelegd bij MDN of andere bronnen. 
 
 
 <!--
@@ -146,7 +150,7 @@ Maak een bijpassend issue, verzamel je schetsen en onderzoek.
 ## 💪 Extra uitdagingen
 
 
-Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je werk bij in het issue met foldable design ideeën.
+Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je werk bij in het issue met _foldable_ design ideeën.
 
 
 
@@ -154,6 +158,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
