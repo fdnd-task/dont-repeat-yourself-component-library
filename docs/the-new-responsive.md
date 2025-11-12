@@ -57,7 +57,7 @@ Lees met je team de bron [Screen configurations](https://web.dev/learn/design/sc
 #### 🕜 Hoe hiermee verder?
 Maak een issue aan met jullie design ideeën, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
 
-#### Bronnen 
+### Bronnen 
 - [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
 - [Responsive Design / Screen configurations](https://web.dev/learn/design/screen-configurations/)
 - [Viewport Segments API](https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API)
@@ -79,8 +79,6 @@ In de level 5 _User preference media features_ kan je in CSS rekening houden met
 - prefers-reduced-data
 - inverted-colors (color media features)
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
-
 <!--
 ### 👉 Opdracht Mediaqueries level 3,4 en 5
 Onderzoek met je tafel welke Media Features van mediaqueries er zijn in Level 3, 4 en 5 van de W3C specs.
@@ -98,6 +96,10 @@ Maak per variatie een breakdown, onderzoek hoe je de media feature in CSS goed k
 
 #### 🕜 Hoe hiermee verder?
 Maak een issue aan zodat je hier later mee verder kan. Documenteer je onderzoek in het issue. 
+
+### Bronnen 
+- [Media Queries Level 5 - W3C](https://www.w3.org/TR/mediaqueries-5/)
+- [Using media queries - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using)
 
 
 ## Responsive to the Container
@@ -124,50 +126,36 @@ Werk je eigen component in detail uit in Figma. Hou er rekening mee dat het comp
 
 Maak een breakdown met breakpoints, onderzoek en noteer hoe je het component met container queries kan bouwen. 
 
-#### 🕜 Hoe hiermee verder?
-Maak een bijpassend issue, verzamel je schetsen en onderzoek. Maak je component met _component queries_ voor 'the new responsive'!
-
-
 <!--
 - Component responsive uitwerken op basis van het artikel (voorbeeld Ina menu dinges) 
   - color scheme dark mode/light mode/high contrast, nog een?
-  - states, focus, hover, active
-  - 
+  - states, focus, hover, active?
 
 - Breakpoints bepalen (button voorbeeld)
 
 - Breakdown: Lagen toevoegen voor the new responsive/user prefs, ...???
   - code voorbeelden onderzoeken, uitproberen en opnemen in de breakdown, onderzoek opnemen in issues? 
-  - 
 -->
 
+
+#### 🕜 Hoe hiermee verder?
+Maak een bijpassend issue, verzamel je schetsen en onderzoek. Maak je component met _component queries_ voor 'the new responsive'!
+
+### Bronnen
+- [Responsive Icon Demo - Miriam Suzanne](https://codepen.io/miriamsuzanne/pen/RwQmmrw)
+- [CSS 2025 Container queries and style queries in real projects](https://medium.com/@vyakymenko/css-2025-container-queries-and-style-queries-in-real-projects-c38af5a13aa2)
+<!-- - [An Interactive Guide to CSS Container Queries](https://ishadeed.com/article/css-container-query-guide/) -->
+<!-- - [A Friendly Introduction to Container Queries - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-introduction/) -->
+<!-- - [Container Queries Unleashed - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-unleashed/) -->
 
 
 
 
 ## 💪 Extra uitdagingen
 
-
 Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je werk bij in het issue met _foldable_ design ideeën.
-
-
 
 
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
