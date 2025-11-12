@@ -16,9 +16,9 @@ Responsive web design anno 2025 is een website die zich aanpast aan de vorm van 
 
 ## Responsive Web Design
 
-Responsive web design is moeilijk. Er bestaan al veel apparaten met verschillende schermen en er komen steeds meer apparaten bij met afwijkende schermformaten. Klein ronde schermen zoals de smart watches, schermen die in- en uitklapbaar zijn (foldables) of die je om je arm kan dragen... wot?
+Responsive web design is moeilijk. Er bestaan al veel apparaten met verschillende schermen en er komen steeds meer apparaten bij met afwijkende schermformaten. Kleine ronde schermen zoals smart watches, schermen die in- en uitklapbaar zijn (foldables) of die je om je arm kan dragen... wot?
 
-Sinds Ethan Marcote in 2010 de term Responsive Web Design bedacht, zijn er in CSS steeds meer technieken bij gekomen om rekening te houden met moderne ontwikkelingen. `flexbox`, `grid`, `container queries`, `minmax`, `clamp`, `viewport units` en meer.
+Sinds Ethan Marcotte in 2010 de term Responsive Web Design bedacht, zijn er in CSS steeds meer technieken bij gekomen om rekening te houden met moderne ontwikkelingen. `flexbox`, `grid`, `container queries`, `minmax`, `clamp`, `viewport units` en meer.
 
 Met CSS kan je ook steeds beter rekening houden met gebruikersinstellingen van het apparaat zoals light/dark modes, wel of geen animaties of high contrast. Je kan websites maken die zich aanpassen aan de gebruiker.
 
@@ -154,6 +154,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
