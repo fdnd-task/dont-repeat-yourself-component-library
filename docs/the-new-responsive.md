@@ -60,7 +60,7 @@ Maak een issue aan met jullie design ideeen, voeg inspiratie toe en bronnen hoe 
 ### Bronnen 
 - [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
 - [Responsive Design / Screen configurations](https://web.dev/learn/design/screen-configurations/)
-- (Viewport Segments API)[https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API]
+- [Viewport Segments API](https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API)
 
 
 
@@ -154,6 +154,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
