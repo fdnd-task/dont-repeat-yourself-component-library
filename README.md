@@ -2,7 +2,7 @@
 
 Ontwikkel een website voor een opdrachtgever op basis van een component library.
 
-De instructies staan in [INSTRUCTIONS.md](./docs/INSTRUCTIONS.md)
+De instructies staan in [INSTRUCTIONS.md](https://github.com/fdnd-task/dont-repeat-yourself-component-library/blob/main/docs/INSTRUCTIONS.md)
 
 ## Licentie
 
