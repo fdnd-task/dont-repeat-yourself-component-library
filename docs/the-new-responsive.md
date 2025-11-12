@@ -117,7 +117,7 @@ _Een button component 'add to cart' wordt op verschillen plekken gebruikt in een
 
 ### Opdracht 👉 Component in detail ontwerpen en bouwen met container queries
 
-Bekijk met je team de voorbeeld video met de planten in het onderdeel 'Responsive to the container_ op https://web.dev/articles/new-responsive#responsive_to_the_container
+Bekijk met je team de voorbeeld video met de planten in het onderdeel 'Responsive to the container' op https://web.dev/articles/new-responsive#responsive_to_the_container
 
 Werk je eigen component in detail uit in Figma. Hou er rekening mee dat het component op verschillende plekken in de website gebruikt kan worden. Neem als voorbeeld de button uitwerking van de [Responsive Icon Demo](https://codepen.io/miriamsuzanne/pen/RwQmmrw)_
 
@@ -154,6 +154,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
