@@ -52,7 +52,7 @@ Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma 
 
 Maak in jullie Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. 
 
-Lees met je team de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel.
+Lees met je team de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel: _Test your knowledge of screen configurations_
 
 #### 🕜 Hoe hiermee verder?
 Maak een issue aan met jullie design ideeën, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
@@ -158,6 +158,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
