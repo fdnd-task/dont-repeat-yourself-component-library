@@ -2,213 +2,155 @@
 
 ## The New Responsive
 
-Waarin je leert over media queries, container queries en user-preference queries
+Waarin je leert over responsive design, container queries en user-preference queries
 
 ### Aanpak
 
-<!-- 
-N.B.: Zorg er voor dat stap 1 t/m 5 voor woensdag zijn afgerond. Tijdens de les over the new responsive wordt aandacht gegeven aan container queries, het is belangrijk dat je de ontwerpfase dan afgerond hebt!
+Je hebt na de sprint planning variaties geschetst van je component en een hifi ontwerp uitgewerkt. Vandaag gaan we aan de hand van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) onderzoeken wat responsive design betekent voor jouw component en hoe je moderne ontwikkelingen van CSS hiervoor kan gebruiken.
 
-Beschrijf tekstueel de functie en eigenschappen die het component heeft. Het is handig als je met iemand uit je team overlegt om te bepalen of het idee wat je hebt bij het component volledig is. Meestal plaats je deze tekst in de issue of sub-issue.
-Maak (op papier!) een morphologische kaart om variatie in de uitwerking van het component te onderzoeken. Elke functie kan immers op veel verschillende manieren uitgewerkt worden en een goed onderbouwde keuze heeft minstens een aantal alternatieven onderzocht.
-Onderweg zoek je inspiratie op het web, kijk naar hoe anderen bepaalde dingen hebben aangepakt. Bewaar de door jou gevonden inspiratie door screenshots in Figma bij elkaar te plaatsen. [divergeren]
-Gebruik jouw morphologische kaart om vijf variaties te genereren. Werk deze variaties grof uit in Figma door een LoFi wireframe te ‘schetsen’. [divergeren]
-Beargumenteer welke variatie of combinatie van eigenschappen van variaties je uiteindelijk kiest. [convergeren]
--->
+<!-- Voor deze workshop 
+Lees het artikel The New Responsive met je tafel.  Bespreek een strategie hoe je de drie onderdelen (responsive to the user, responsive to the container, responsive to the form factor ) kan toepassen op jullie Component Library. 
+Schets voor je eigen component een breakdown voor het toepassen van User preference media features en Container queries. Onderzoek hoe het werkt en ….  -->
+
+Responsive web design is anno 2025 een website die zich aanpast aan de vorm van het apparaat, rekening houdt met gebruikers instellingen, met componenten die zich aanpassen naar de ruimte die beschikbaar is. 
+
+## Responsive Web Design
+
+Responsive web design is moeilijk. Er bestaan al veel apparaten met verschillende schermen en er komen steeds meer apparaten bij met afwijkende schermformaten. Klein ronde schermen zoals de smart watches, schermen die in- en uitklapbaar zijn (foldables) of die je om je arm kan dragen... wot?
+
+Sinds Ethan Marcote in 2010 de term Responsive Web Design bedacht, zijn er in CSS steeds meer technieken bij gekomen om rekening te houden met moderne ontwikkelingen. `flexbox`, `grid`, `container queries`, `minmax`, `clamp`, `viewport units` en meer.
+
+Met CSS kan je ook steeds beter rekening houden met gebruikersinstellingen van het apparaat zoals light/dark modes, wel of geen animaties of high contrast. Je kan websites maken die zich aanpassen aan de gebruiker.
+
+![](the-new-responsive-circle.png)<br>
+_Responsive design betekent dat je rekening houdt met de viewpoort, met afwijkende schermen, én met gebruikerinstellingen._
+
+
+## Responsive to the Form Factor
+_Responsive to the Form Factor_ betekent dat een website zich ook aanpast aan de vorm van een apparaat. Door de uitvinding van flexibele schermen kunnen handhelds gevouwen worden. Bijvoorbeeld Samsung is hiermee bezig. Sommige studenten hebben een smarthphone met gevouwen scherm. (Stelle?).
 
 <!--
+> Flexponsive Design
+>
+> Evolved responsive strategy that anticipates non-linear screen behaviours such as folding, spanning, stretching beyond 4K, or rotating to portrait mode on oversized touch displays.
+>
+> [Mastering Responsive Layouts for Foldables and 4K Screens](https://www.zignuts.com/blog/flexponsive-design-for-foldables-and-4k-screens)
+-->
 
-# Lose Your Head - The Client Case
+![](the-new-responsive-samsung-s-fold.webp)<br>
+_Design prototype voor de Samsug S Fold_
 
-## Styleguide en kleur
+Om hier layouts voor te maken zijn _Viewport Segments API_ bedacht. Dit is nog in de experimenteel fase, nog niet alle moderne brwosers ondersteunen dit. Maar dit komt eraan! https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API
 
-Een styleguide is essentieel voor het begrijpen en toepassen van een huisstijl. Een styleguide geeft voorbeelden en uitleg over hoe iets eruit moet zien. Een styleguide helpt bij het ontwerpen en bouwen van een website, zodat de verschillende elementen consistent worden toegepast.
+### 👉 Opdracht Foldable screens
 
-### Aanpak
-Voor het maken van een styleguide breng je eerst de verschillende onderdelen van de huisstijl in kaart, zoals typografie, beeldgebruik, formulierelementen en navigatie. Dit doe je met een _Interface inventory_. Lees in de workshop [styleguide](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md) uit Sprint 4 hoe je dat doet
+Bekijk jullie website in de devtools van Chrome op de _Galaxy Z Fold_ en _Asus Zenbook Fold_. Klopt de layot nog? Wat kan je hier nog meer mee maken?
 
-In deze workshop ga je met je team een kleurenpalet samenstellen om te gebruiken voor de styleguide van jouw opdracht. Daarna ga je bedenken hoe je dit slim in code kan opzetten met behulp van een aantal (moderne) tips over kleur in CSS.
+Bekijk met je team de voorbeeld video voor _foldable screens_ op https://web.dev/articles/new-responsive#responsive_to_the_form_factor
 
-## Kleurenpalet samenstellen
-Een kleurenpalet bestaat uit verschillende kleuren die gebruikt kunnen worden in een ontwerp. Als je de kleuren voor een ontwerp goed vastlegt in de styleguide kan je met je team goede afspraken maken en zorg je ervoor dat het ontwerp consistent kan worden toegepast.
+Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma document. Bijvoorbeeld op Dribbble of Pinterest. 
 
-In styleguides zie je soms dat een kleurenpalet bestaat uit een paar kleuren. Maar een goed webdesign kan je niet met 5 kleuren maken. Er zijn veel meer kleuren nodig voor een goed ontwerp. 
-<img src="styleguide-you-need-more-colors-than-you-think.jpg"><br>
-_Een goed ontwerp heeft veel meer kleuren nodig - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoger_
+Maak in jullie Figma een template voor verschillende _fold_ schermen en werk een paar ideeen lowfi uit. 
 
-### Kleurenpalet samenstellen
-Een tip voor een goed bruikbaar kleurenpalet is: bepaal meerdere donkere en lichte varianten per kleur. Zo kan je in een ontwerp meer kleuren gebruiken dan alleen de volle kleuren.
+Lees met je team de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel.
 
-<img src="styleguide-color-palet-with-shades.jpg"><br>
+#### Could Have
+Maak een issue aan met jullie design ideeen, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
 
-Een kleurenpalet bestaat meestal uit een primaire kleur, secundaire kleur (of contrast kleur), accent kleuren en een neutrale kleur voor achtergronden, lijnen, teksten of iconen. Per kleur heb je 5–10 lichtere en donkere varianten nodig waar je uit kan kiezen.
-
-#### 🛠️ Opdracht: Kleuren bepalen
-Alle teamleden maken in Figma dezelfde pagina met verschillende kleuren en/of kleurvariaties. Zorg dat je minimaal 3 verschillende versies hebt.
-
-Bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
-
-#### 🛠️ Opdracht: Kleurvariaties bepalen
-Maak een overzicht van alle kleuren die jullie in het ontwerp hebben gebruikt.  
-
-Bepaal de primaire kleur, secundaire kleur, accent kleuren en neutrale kleur in `HSL()` waarden in Figma. Maak daarna 3 donkere varianten per kleur, en 3 lichte varianten per kleur. Zo krijg je een kleurenpalet met 7 variaties per kleur.
-
-💡 Je kan donkere en lichte variatie maken door de _lightness_ in `HSL()` te veranderen, maar het kan mooier zijn om de _hue_ aan te passen, zodat je een warme, rijke kleurvariatie krijgt.
-
-<img src="styleguide-lightness-of-hue-variaties.jpg"><br>
-_Soms is het mooier om niet de lightness te veranderen maar de hue aan te passen - [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge_
-
-#### 🛠️ Opdracht: light/darkmode
-Ontwerp allemaal een dark-mode versie (of light-mode als je al een donkere versie hebt). Alle teamleden maken in Figma dezelfde pagina met dark-mode kleuren. Zorg dat je minimaal 3 verschillende versies hebt, bespreek de verschillende versies en stel 1 ontwerp samen op basis van jullie beste ideeen en uitwerkingen. (Bewaar je variaties)
-
-💡 Let op dat wit op zwart een te hoog contrast kan hebben. Vooral als een gebruiker het scherm heel fel heeft staan. Probeer eens donker grijs op de achtergrond. En hoe ziet dit eruit met hele licht grijze teksten?
-
-<img src="styleguide-avoid-pure-black.jpg"><br>
-_Zwart heeft 0% brightness en wit 100%, dit contrast kan onprettig zijn om naar te kijken, heel donker grijs zorgt voor een nette contrast - [Practical UI](https://www.practical-ui.com) van Adham Dannaway_
-
-💡 Let op dat de leesbaarheid van teksten in dark mode kan veranderen. Witte tekst op een donkere achtergrond heeft meer line-height nodig dan donkere tekst op een witte achtergrond. Probeer dit maar eens uit in jullie Figma ontwerp. 
-
-<img src="styleguide-color-and-leading.jpg"><br>
-_Dit voorbeeld laat zien dat een lichte tekst op een donkere achtergrond een grotere regelafstand nodig heeft._
+### Bronnen 
+- [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
+- [Responsive Design / Screen configurations](https://web.dev/learn/design/screen-configurations/)
+- (Viewport Segments API)[https://developer.mozilla.org/en-US/docs/Web/API/Viewport_segments_API]
 
 
-Ik weet deze bron niet meer. Dit is de bijhorende tekst: 
 
-6. Know the connection between color and leading
-Contrast and color are extremely important when choosing line heights, and distance between letters. On darker backgrounds, most professional designers will recommend using more leading than on a lighter background. 
-Dark colors can add weight to a design, like tight leading. Try to avoid jumping between different leading options from one part of your webpage to the next. 
-Using the same amount of leading throughout your page will help to create a sense of balance. Remember, the contrast between your background and text colors should be high to support better readability. Although, if you’re using two colors closer together in shade, a greater amount of leading may improve legibility. 
+## Responsive to the User
+Media query ‘luistert’ naar de instellingen van de gebruiker zoals light/dark mode en toegankelijkheid settings
 
+### User preference media features (Level 5)
 
-#### Extra bronnen
+In de level 5 _User preference media features_ kan je in CSS rekening houden met verschillende gebruikers instellingen, zoals:  
 
-- [Refactoring UI](https://www.refactoringui.com) van Adam Wathan & Steve Schoge
-- [Practical UI](https://www.practical-ui.com) van Adham Dannaway
-- [6 Mistakes to Avoid in Dark UI Design](https://supercharge.design/articles/6-mistakes-to-avoid-in-dark-ui-design)
+- prefers-reduced-motion
+- prefers-reduced-transparency
+- prefers-contrast
+- forced-colors
+- prefers-color-scheme
+- prefers-reduced-data
+- inverted-colors (color media features)
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
 
-## Color in CSS
+<!--
+### 👉 Opdracht Mediaqueries level 3,4 en 5
+Onderzoek met je tafel welke Media Features van mediaqueries er zijn in Level 3, 4 en 5 van de W3C specs.
+-->
 
-Er zijn veel verschillende manieren om kleur in CSS te definieren. [CSS named color](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/), [Hex](https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color), [RGB](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb), [HSL](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl), om er maar een paar te noemen.
+### 👉 Opdracht User preference media features
+Ontwerp je component voor verschillende _User preference media features_.
 
-Sinds [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) is de syntax voor kleurendefinitie veranderd. Er zijn bijvoorbeeld geen komma's meer nodig voor rgb() en hsl() `color: hsl(180deg, 100%, 50%)` kan nu zo: `color: hsl(180deg 100% 50%)`. Dit wordt ondersteund door een goede baseline van moderne browsers. Maar wat betekent dat eigenlijk voor oude browsers?
+Lees eerst met je team het onderdeel 'Responsive to the user' op https://web.dev/articles/new-responsive#responsive_to_the_user
 
-👉 Hieronder krijg je een aantal tips en vragen voor kleur in CSS. Dit kan je gebruiken voor de code afspraken die jullie gaan maken voor de styleguide van jullie opdracht.  
-Het zou heel mooi zijn om in het gemaakte werk in semester 3 dit soort zaken terug te zien in de styleguide en code afspraken
+Dupliceer het ontwerp van je component in Figma en maak variaties op je design voor 
+prefers-reduced-motion, prefers-contrast, prefers-color-scheme en inverted-colors. Zorg dat je ontwerp voldoet aan de instellingen van de gebruiker ... Maak een annotatie in je Figma waarin je de media-feature en het ontwerp uitlegt.
 
-### HSL()
+Maak per variatie een breakdown, onderzoek hoe je de media feature in CSS goed kan gebruiken. 
 
-Een meer intuitieve manier van kleur definieren is met `hsl()`, in plaats van rgb waardes wordt een kleur gedefinieerd door de _hue_, _saturation_ en _lightness_.  
-
-<img src="styleguide-hsl-color-wheel.jpg"><br>
-_[HSL color wheel Codepen](https://codepen.io/websanity/pres/QWNMRq) van WebSanity_
-
-`hsl()` geeft niet alleen een meer gevoelsmatige manier van kleuren definieren. Het zorgt er ook voor dat je met behulp van custom properties eenvoudig verschillende states van een button kan coderen. 
-
-```css
-button {
-  --h: 100; 
-  --s: 50%; 
-  --l: 50%; 
-  --a: 1; 
-  background: hsl(var(--h) var(--s) var(--l) / var(--a)); 
-  
-  &:hover {
-    --l: 75%;  /* Change lightness */ 
-  }
-  
-  &:focus, &:active  {  
-    --s: 75%;  /* Change saturation */ 
-  }
-  
-  &[disabled] {   
-    --s: 0%; /* Make look disabled */
-    --a: 0.5; 
-  }
-}
-```
-
-👉 Bedenk met je team hoe je de kleuren in CSS gaan toepassen. 
-
-#### Extra bronnen
-- Dit is een interessant artikel van Sara Soueidan over waarom zij `hsl()` is gaan gebruiken: [On Switching from HEX & RGB to HSL](https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/)
+Maak een issue aan zodat je hier later mee verder kan. Documenteer je onderzoek in het issue. 
 
 
-### New CSS Color Functions
-Sinds een paar jaar zijn er meerdere kleuren functies bijgekomen. Zoals `lab()` en `lch()`. Hiermee kan je ook meer kleuren laten zien dan met `rgb()` en `hsl()`.
+## Responsive to the Container
 
-<img src="styleguide-hsl-lchl.avif"><br>
-_lch-kleuren worden anders opgebouwd dan bijvorbeeld hsl-kleuren, dat geeft soms mooiere en frissere kleuren_
+Behalve media queries bestaan er tegenwoordig Container queries in CSS. 
 
-Omdat schermen steeds beter worden en meer kleuren kunnen laten zien zijn er nieuwe 'color spaces' bedacht zoals `Display-P3`. Als een gebruiker een modern scherm heeft dan kan je veel mooiere, heldere kleuren tonen. 
+> Container queries are like media queries but different. With media queries, you can adjust CSS based on the viewport width (or height etc.). But with container queries, you can adjust the CSS based on the width of a given container.
+https://dev.to/jannikwempe/container-queries-in-svelte-using-svelte-actions-33ga
 
-<img src="styleguide-display-p3.jpg"><br>
-_het kleurenspectrum van Display-P3 is een stuk groter dan van rgb_
+Als je voor een component container queries gebruikt kan je de layout laten aanpassen aan de beschikbare ruimte. Als je het component op verschillende plekken in een website gebruikt, past het zich vanzelf aan aan de beschikbare ruimte. Vet ... 
 
-👉 Kan jouw scherm deze kleuren laten zien? Hoe zit het met browser ondersteuning? Hoe zou je dit kunnen gebruiken voor jullie opdracht?
-Het zou heel mooi zijn als een student ziet dat lch veel 'mooier' is dan hsl, waarom dan geen lch() gebruikenin plaats van hsl()? Ga maar onderzoeken hoe zit het met de ondersteuning door browsers en devices? En doe een suggestie voor jullie styleguide
+> [...] many designs have common components that change layout depending on the available width of their container. This may not always relate to the size of the viewport, but instead, relate to where in the layout the component is placed.
+— MDN - CSS Container Queries https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries
 
-#### Extra bronnen
-- CSS Tricks over New CSS Color Features, met uitleg en code voorbeelden: https://css-tricks.com/new-css-color-features-preview/
-- Meer over deze Color Functions op Smashing magazine: https://www.smashingmagazine.com/2021/11/guide-modern-css-colors/ 
-
-### light-dark() color function
-
-Met de `light-dark()` color function kan je met een shorthand twee kleuren bepalen die worden getoond als een _light_ of _dark_ mode staat ingesteld. 
-
-```css
-:root {
-  color-scheme: light dark;
-}
-body {
-  color: light-dark(#333b3c, #efefec);
-  background-color: light-dark(#efedea, #223a2c);
-}
-```
-
-Probeer het zelf: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
-
-👉 Hoe kan je de light-dark() color function gebruiken voor jullie opdracht? Gebruik dit in de code afspraken die jullie moeten maken. 
+![](the-new-responsive-container-query-button.jpg)<br>
+_Een button component 'add to cart' wordt op verschillen plekken gebruikt in een website. Het label past zich aan aan de hoeveelheid ruimte - [Responsive Icon Demo Mariam Suzanne](https://codepen.io/miriamsuzanne/pen/RwQmmrw)_
 
 
-Extra uitdaging:
-Relative color syntax
-https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/
+### Opdracht 👉 Component in detail ontwerpen en bouwen met container queries
+
+Bekijk met je team de voorbeeld video met de planten in het onderdeel 'Responsive to the container_ op https://web.dev/articles/new-responsive#responsive_to_the_container
+
+Werk je eigen component in detail uit in Figma. Hou er rekening mee dat het component op verschillende plekken in de website gebruikt kan worden. Neem als voorbeeld de button uitwerking van de [Responsive Icon Demo](https://codepen.io/miriamsuzanne/pen/RwQmmrw)_
+
+Maak een breakdown met breakpoints, onderzoekn en noteer hoe je het component met container queries kan bouwen. 
+
+Maak een bijpassend issue, verzamel je schetsen en onderzoek. 
 
 
-### Fallback
-CSS is constant in ontwikkeling. Er zijn hele vette kleuren technieken bijgekomen, de notaties veranderen, browsers veranderen ... wat betekent dat voor de toegankelijkheid? Hoe bouw je robuste CSS én omarm je de veranderingen?
+<!--
+- Component responsive uitwerken op basis van het artikel (voorbeeld Ina menu dinges) 
+  - color scheme dark mode/light mode/high contrast, nog een?
+  - states, focus, hover, active
+  - 
 
-Zo is het bijvoorbeeld niet meer nodig om kommas te gebruiken in `rgb()` en `hsl()` functies. En sinds een jaar ondersteunen alle grote moderen browsers dit. Maar niet iedereen heeft een moderne browser. De meeste "normale" mensen weten niet eens wat deze zin betekent ... 
+- Breakpoints bepalen (button voorbeeld)
 
-👉 Bedenk voor jullie styleguide een CSS strategie waarmee je de nieuwe kleurenschema's en ontwikkelingen kan toepassen, terwijl de moeder van Koop nog steeds jullie website goed kan bekijken.
+- Breakdown: Lagen toevoegen voor the new responsive/user prefs, ...???
+  - code voorbeelden onderzoeken, uitproberen en opnemen in de breakdown, onderzoek opnemen in issues? 
+  - 
+-->
 
 
-### WCAG 3
 
-In WCAG 3 komt een nieuwe manier om te meten of teksten goed leesbaar zijn op een achtergondkleur: APCA (Advanced Perceptual Contrast Algorithm). Deze methode kijkt verder dan licht-donker contrast en houdt rekening met hoe mensen contrast daadwerkelijk ervaren.
 
-<img src="styleguide-apca.png"><br>
-_Hier kan je de verschillen zien tussen WCAG2 en ACPA contrast test_
 
-💡 Vind je dit interessant en wil je er meer over lezen? Lees hier wat je hiermee kan doen: 
-https://rox.nl/blog/apca-vervangt-wcag2-contrast
+## 💪 Extra uitdagingen
 
-https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp
+
+Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je werk bij in het issue met foldable design ideeen.
+
 
 
 
 ## ✒️ Leervragen
 
-Zet de antwoorden in je learning journal:
-
-Nog een leervraag bedenken bij het eerste onderdeel kleurenpalet samenstellen
-misschien over de werkwijze? varieren: convergeren, divergeren. Of over kleurgebruik? you need more colors than you think
-- Welke bronnen uit het onderdeel Color in CSS ga je later nog eens lezen? 
-- Onderzoek een robuste code strategie voor het toepassen van moderne color functions en kleurenspectra, mét een nette fallback voor browsers die dit niet ondersteunen.
-
-
--->
-
-
-
+Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
