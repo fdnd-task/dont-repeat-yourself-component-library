@@ -50,12 +50,12 @@ Bekijk met je team de voorbeeld video voor _foldable screens_ op https://web.dev
 
 Zoek design inspiratie voor foldable schermen en bewaar voorbeelden in je Figma document. Bijvoorbeeld op Dribbble of Pinterest. 
 
-Maak in jullie Figma een template voor verschillende _fold_ schermen en werk een paar ideeen lowfi uit. 
+Maak in jullie Figma een template voor verschillende _fold_ schermen en werk een paar ideeën lo-fi uit. 
 
 Lees met je team de bron [Screen configurations](https://web.dev/learn/design/screen-configurations/) op Web.dev en doe de quiz aan het eind van het artikel.
 
 #### Could Have
-Maak een issue aan met jullie design ideeen, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
+Maak een issue aan met jullie design ideeën, voeg inspiratie toe en bronnen hoe je dit zou kunnen maken. Voeg het label 'could have' toe ...
 
 ### Bronnen 
 - [Building Web Layouts For Dual-Screen And Foldable Devices](https://www.smashingmagazine.com/2022/03/)
@@ -65,7 +65,7 @@ Maak een issue aan met jullie design ideeen, voeg inspiratie toe en bronnen hoe 
 
 
 ## Responsive to the User
-Een Media query ‘luistert’ naar de instellingen van de gebruiker zoals light/dark mode en toegankelijkheid settings.
+Een Media query ‘luistert’ naar de instellingen van de gebruiker, zoals light/dark mode en toegankelijkheid settings.
 
 ### User preference media features (Level 5)
 
@@ -154,6 +154,7 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
 
 
 
