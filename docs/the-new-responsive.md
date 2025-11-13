@@ -139,7 +139,7 @@ Maak een breakdown met breakpoints, onderzoek en noteer hoe je het component met
 
 
 #### 🕜 Hoe hiermee verder?
-Maak een bijpassend issue, verzamel je schetsen en onderzoek. Maak je component met _component queries_ voor 'the new responsive'!
+Maak een bijpassend issue, verzamel je schetsen en onderzoek. 
 
 ### Bronnen
 - [Responsive Icon Demo - Miriam Suzanne](https://codepen.io/miriamsuzanne/pen/RwQmmrw)
@@ -148,8 +148,13 @@ Maak een bijpassend issue, verzamel je schetsen en onderzoek. Maak je component 
 <!-- - [A Friendly Introduction to Container Queries - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-introduction/) -->
 <!-- - [Container Queries Unleashed - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-unleashed/) -->
 
+## 👩🏽‍💻 Zelfstudieopdracht: Code Conventions, The New Responsive
+Pas aan de hand van de FDND Agency conventions voor [The New Responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive) je bevindingen uit deze workshop toe in de leertaak. Met ander woorden; zorg ervoor dat jou code voldoet aan deze conventions. Hiermee werk je aan de **R** van **RAPPE** componenten.
 
+**Aanpak**
+Kies een complex component (bijvoorbeeld een __filter__ of __carrousel__ uit jouw opdracht voor de opdrachtgever en maak deze, tot in de kleinste details responsive. 
 
+🚨 Let op; dit is een zeer uitgebreide opdracht waar je buiten de lesuren mee bezig bent!
 
 ## 💪 Extra uitdagingen
 
@@ -159,3 +164,4 @@ Onderzoek de _Viewport Segments CSS media features_ en bouw een demo. Hou je wer
 ## ✒️ Leervragen
 
 Noteer per onderdeel van het artikel [The new responsive: Web design in a component-driven world](https://web.dev/articles/new-responsive) minimaal 1 ding dat je nog niet kent, zoek een bron en maak aantekeningen in je learning journal zodat je het (later) kan onderzoeken.
+
