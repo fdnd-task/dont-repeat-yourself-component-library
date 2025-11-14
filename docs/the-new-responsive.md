@@ -148,13 +148,7 @@ Maak een bijpassend issue, verzamel je schetsen en onderzoek.
 <!-- - [A Friendly Introduction to Container Queries - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-introduction/) -->
 <!-- - [Container Queries Unleashed - Josh Comeau](https://www.joshwcomeau.com/css/container-queries-unleashed/) -->
 
-## 👩🏽‍💻 Zelfstudieopdracht: Code Conventions, The New Responsive
-Pas aan de hand van de FDND Agency conventions voor [The New Responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive) je bevindingen uit deze workshop toe in de leertaak. Met ander woorden; zorg ervoor dat jou code voldoet aan deze conventions. Hiermee werk je aan de **R** van **RAPPE** componenten.
 
-**Aanpak**
-Kies een complex component (bijvoorbeeld een __filter__ of __carrousel__ uit jouw opdracht voor de opdrachtgever en maak deze, tot in de kleinste details responsive. 
-
-🚨 Let op; dit is een zeer uitgebreide opdracht waar je buiten de lesuren mee bezig bent!
 
 ## 💪 Extra uitdagingen
 
