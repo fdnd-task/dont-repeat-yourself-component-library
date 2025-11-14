@@ -37,7 +37,7 @@ Laat om de beurt je ontwerp en de code zien voor het responsive ontwerp dat je h
 
 
 ## Hoe nu verder?
-Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overenkomt met de [FDND Agency conventions](https://docs.fdnd.nl/conventies.html).
+Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overeenkomt met de [FDND Agency conventions](https://docs.fdnd.nl/conventies.html).
 
 Als je de feedback hebt verwerkt voor het eerste component, kun je verder werken aan het volgende component. Je werkt met je team aan een component library voor de opdrachtgever met meerdere waardevolle componenten.
 
