@@ -13,11 +13,11 @@ Intro over componenten en wat we verwachten dat ze nu hebben (of stok achter deu
 
 ### Aanpak
 
-Vandaag ga je in een groepje van 3 naar elkaar component kijken. Als je feedback hebt gekregen kan je deze verwerken en verder met een volgend component. 
+Vandaag ga je in een groepje van 3 naar elkaars component kijken. Als je feedback hebt gekregen kan je deze verwerken en verder met een volgend component. 
 
 Maak een groepje van 3 met studenten uit een ander team. Ga dit keer samenwerken met studenten waar je niet vaak mee samenwerkt, daar leer je van ...
 
-Bespreek eerst hoe je verschillende _User preference media features_ hebt ontworpen en in code gemaakt en daarna de container queries.
+Bespreek eerst hoe je verschillende _User preference media features_ hebt ontworpen en in code gemaakt en laat daarna zien hoe je de container queries hebt toegepast.
 
 ## User preference media features
 
@@ -36,6 +36,10 @@ Laat om de beurt je ontwerp en de code zien voor het responsive ontwerp dat je h
 3. Bespreek (en test) de container querie en code van het component. Schrijf feedback in het issue.
 
 
+## Hoe nu verder?
+Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overenkomt met de FDND Agency conventions voor [The New Responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive).
+
+ALs je de feedback hebt verwerkt, kan je een volgend component oppakken. 
 
 
 
