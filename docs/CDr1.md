@@ -32,14 +32,14 @@ Jullie presenteren om de beurt het ontwerp en de code en geven elkaar feedback:
 Laat om de beurt je ontwerp en de code zien voor het responsive ontwerp dat je hebt gemaakt met container queries. 
 
 1. Presenteer aan de hand van het issue het repsonsive ontwerp van je component. 
-2. Laat het ontwerp in Figma zien, met breakdown met breakpoints.
-3. Bespreek (en test) de container querie en code van het component. Schrijf feedback in het issue.
+2. Laat het ontwerp in Figma zien, met de breakdownschets en breakpoints.
+3. Bespreek (en test) de container queries en code van het component. Schrijf feedback in het issue.
 
 
 ## Hoe nu verder?
-Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overenkomt met de FDND Agency conventions voor [The New Responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive).
+Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overenkomt met de [FDND Agency conventions](https://docs.fdnd.nl/conventies.html).
 
-Als je de feedback hebt verwerkt, kan je een volgend component oppakken. 
+Als je de feedback hebt verwerkt voor het eerste component, kun je verder werken aan het volgende component. Je werkt met je team aan een component library voor de opdrachtgever met meerdere waardevolle componenten.
 
 
 
