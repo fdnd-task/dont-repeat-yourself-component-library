@@ -5,7 +5,7 @@
 Jullie zijn voor de website van de opdrachtgever een component library aan het ontwerpen en maken. 
 Een component library zorgt voor herbruikbaarheid, consistentie en schaalbaarheid binnen projecten.
 
-Deze sprint ben je begonnen met het ontwerpen en bouwen van component. 
+Deze sprint ben je begonnen met het ontwerpen en bouwen van het eerste component. 
 
 <!-- 
 Intro over componenten en wat we verwachten dat ze nu hebben (of stok achter deur wat ze nu zouden moeten hebben) 
