@@ -39,7 +39,7 @@ Laat om de beurt je ontwerp en de code zien voor het responsive ontwerp dat je h
 ## Hoe nu verder?
 Verwerk de feedback die je hebt gekregen in issues. Check in hoeverre de feedback overenkomt met de FDND Agency conventions voor [The New Responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive).
 
-ALs je de feedback hebt verwerkt, kan je een volgend component oppakken. 
+Als je de feedback hebt verwerkt, kan je een volgend component oppakken. 
 
 
 
