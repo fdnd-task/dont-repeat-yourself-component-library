@@ -21,6 +21,7 @@ Er staat ook een [Stagemarkt](stagemarkt.md) op het programma waar bedrijven en 
 - [Typografie in Webdesign](typografie-in-webdesign.md)
 - [Code/Design Review - Component Library](CDr2.md)
 - [Sveltekit anti-patterns](sveltekit-anti-patterns.md)
+- [Compositie in Webdesign](compositie-in-webdesign.md)
 - [Wrap-up](wrap-up.md)
 - [Retrospect / Refinement](retrospect.md)
 
