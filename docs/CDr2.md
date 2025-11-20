@@ -14,7 +14,7 @@ Maak voor onderstaande FDND Agency conventies issue aan in het project board, in
 #### Issues oppakken
 Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zoveel mogelijk op. Houdt bij in het issue in hoeverre dat gelukt is. Hoe verder je bent met de issues hoe gerichter wij feedback kunnen geven. Tag de docenten in de betreffende issues 💎
 
-* [Routes & componenten structuur](https://docs.fdnd.nl/conventies.html#routes--componenten-structuur)  (tag @ju5tu5)
+* [Routes & componenten structuur](https://docs.fdnd.nl/conventies.html#routes--componenten-structuur) <small>(tag @ju5tu5)</small>
 * [Clean components](https://docs.fdnd.nl/conventies.html#componenten)(tag @ju5tu5)
 * [Dynamic color palette](https://docs.fdnd.nl/conventies.html#create-a-rich-dynamic-color-palet-with-custom-properties) (tag @suustenvoorde)
 * [CSS Nesting](https://docs.fdnd.nl/conventies.html#css-nesting) (tag @suustenvoorde)
@@ -26,6 +26,7 @@ Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zove
 * [Text alignment](https://docs.fdnd.nl/conventies.html#rules-for-readable-text)
 * [Modular scale for typography](https://docs.fdnd.nl/conventies.html#modular-scale-for-typography)
 * [Better dark mode](https://docs.fdnd.nl/conventies.html#better-dark-mode)
+
 
 
 
