@@ -9,7 +9,7 @@ Om een indruk te krijgen van hoe jullie RAPPE componenten maken, gaan wij aan de
 ### Aanpak
 
 #### Issues aanmaken
-Maak voor onderstaande FDND Agency conventies issue aan in het project board, in de kolom **Ready for review** en met het label **cdr-component-lib**. Omschrijf in ieder issue in hoeverre jullie componenten voldoen aan de betreffende conventie. 
+Maak voor onderstaande FDND Agency conventies issues aan in het project board, in de kolom **Ready for review** en met het label **cdr-component-lib**. Omschrijf in ieder issue in hoeverre jullie componenten voldoen aan de betreffende conventie. 
 
 #### Issues oppakken
 Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zoveel mogelijk op. Houdt bij in het issue in hoeverre dat gelukt is. Hoe verder je bent met de issues hoe gerichter wij feedback kunnen geven. Tag de docenten in de betreffende issues 🏷️
@@ -26,6 +26,7 @@ Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zove
 * Issue [Text alignment](https://docs.fdnd.nl/conventies.html#rules-for-readable-text)
 * Issue [Modular scale for typography](https://docs.fdnd.nl/conventies.html#modular-scale-for-typography)
 * Issue [Better dark mode](https://docs.fdnd.nl/conventies.html#better-dark-mode)
+
 
 
 
