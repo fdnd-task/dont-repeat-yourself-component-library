@@ -21,11 +21,17 @@ Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zove
 * Issue [The new responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive) (🏷️ @joost)
 * Issue [Avoid the use of :global](https://docs.fdnd.nl/conventies.html#avoid-global-in-css) (🏷️ @joost)
 
+
+_Dit is hoe een issue er vervolgens uit kan komen te zien:_
+
+<img width="1033" height="1056" alt="Scherm­afbeelding 2025-11-20 om 13 40 04" src="https://github.com/user-attachments/assets/223d6c1b-493d-486d-bd75-3ae636ba2b16" />
+
 #### Zet deze issue in de Backlog voor de volgende Code & Design Review
 * Issue [Rules for readable text](https://docs.fdnd.nl/conventies.html#rules-for-readable-text)
 * Issue [Text alignment](https://docs.fdnd.nl/conventies.html#rules-for-readable-text)
 * Issue [Modular scale for typography](https://docs.fdnd.nl/conventies.html#modular-scale-for-typography)
 * Issue [Better dark mode](https://docs.fdnd.nl/conventies.html#better-dark-mode)
+
 
 
 
