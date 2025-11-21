@@ -18,8 +18,8 @@ Verdeel deze issues in het team en en pak ze vóór de Code & Design Review zove
 * Issue [Clean components](https://docs.fdnd.nl/conventies.html#componenten) (🏷️ @ju5tu5)
 * Issue [Dynamic color palette](https://docs.fdnd.nl/conventies.html#create-a-rich-dynamic-color-palet-with-custom-properties) (🏷️ @suustenvoorde)
 * Issue [CSS Nesting](https://docs.fdnd.nl/conventies.html#css-nesting) (🏷️ @suustenvoorde)
-* Issue [The new responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive) (🏷️ @joost)
-* Issue [Avoid the use of :global](https://docs.fdnd.nl/conventies.html#avoid-global-in-css) (🏷️ @joost)
+* Issue [The new responsive](https://docs.fdnd.nl/conventies.html#the-new-responsive) (🏷️ @joostf)
+* Issue [Avoid the use of :global](https://docs.fdnd.nl/conventies.html#avoid-global-in-css) (🏷️ @joostf)
 
 
 _Dit is hoe een issue er vervolgens uit kan komen te zien:_
@@ -31,6 +31,7 @@ _Dit is hoe een issue er vervolgens uit kan komen te zien:_
 * Issue [Text alignment](https://docs.fdnd.nl/conventies.html#rules-for-readable-text)
 * Issue [Modular scale for typography](https://docs.fdnd.nl/conventies.html#modular-scale-for-typography)
 * Issue [Better dark mode](https://docs.fdnd.nl/conventies.html#better-dark-mode)
+
 
 
 
