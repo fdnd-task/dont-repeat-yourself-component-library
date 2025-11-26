@@ -2,9 +2,9 @@
 
 ## WRAP-UP sprint 16
 
-Vandaag gaan jullie laten zien **hoe jullie DRY hebben toegepast** in jullie project — en leren van andere teams hoe zij hun code beter onderhoudbaar, herbruikbaar en overzichtelijk hebben gemaakt.
+Vandaag gaan jullie laten zien hoe jullie DRY hebben toegepast in jullie project — en leren van andere teams hoe zij hun code beter onderhoudbaar, herbruikbaar en overzichtelijk hebben gemaakt.
 
-Het doel van deze workshop is niet alleen presenteren, maar **kennis uitwisselen**, inspiratie ophalen, en met nieuwe ideeën terug naar je eigen codebase gaan.
+Het doel van deze workshop is niet alleen presenteren, maar kennis uitwisselen, inspiratie ophalen, en met nieuwe ideeën terug naar je eigen codebase gaan.
 
 <!--
 ### Aanpak
