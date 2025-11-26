@@ -8,10 +8,8 @@ Het doel van deze workshop is niet alleen presenteren, maar kennis uitwisselen, 
 
 
 ### Aanpak
-We gaan in rondes werken waarbij **twee teams samen zitten**.  
-Elk team laat **5–7 minuten** zien wat ze hebben gedaan, daarna volgt **kort gesprek + feedback**.
 
-1. Team-presentaties
+1. Team-presentaties (2 rondes)
 2. Feedback & inspiratie
 3. Korte code-aanpassing in eigen repo
 4. Voorbereiding sprint review
@@ -24,7 +22,6 @@ Hoe hebben jullie DRY toegepast? Laat bijvoorbeeld zien:
 - Hoe hebben jullie dat opgelost? → components, layouts, data loading, slots, loops, utility classes, stores, etc...
 - Voorbeeld: **voor & na** code fragmenten
 - Welke conventies uit de FDND docs hebben jullie gevolgd?
-
 
 **🛠️ Opdracht 1 (14–20 min per twee teams)**  
 - Team A presenteert 5–7 min  
