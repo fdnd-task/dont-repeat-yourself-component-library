@@ -6,7 +6,7 @@ Vandaag gaan jullie laten zien hoe jullie DRY hebben toegepast in jullie project
 
 Het doel van deze workshop is niet alleen presenteren, maar kennis uitwisselen, inspiratie ophalen, en met nieuwe ideeën terug naar je eigen codebase gaan.
 
-<!--
+
 ### Aanpak
 We gaan in rondes werken waarbij **twee teams samen zitten**.  
 Elk team laat **5–7 minuten** zien wat ze hebben gedaan, daarna volgt **kort gesprek + feedback**.
@@ -16,6 +16,7 @@ We doen dit in **2 rondes**, zodat je meerdere projecten ziet én zelf kunt verb
 1. Team-presentaties
 2. Feedback & inspiratie
 3. Korte code-aanpassing in eigen repo
+4. Voorbereiding sprint review
 
 ### 1. Presenteren
 
@@ -51,12 +52,16 @@ Poker deze met je team.
 
 Toepassen van de inzichten op jullie eigen project.
 
-**🛠️ Opdracht 3 (20-30 min)**
+**🛠️ Opdracht 3 - Timebox van 30 min**
 
 - Kies 1 van de user stories die jullie net hebben geschreven 
 - Pas het samen (pair programming, 1 laptop) toe op jullie eigen codebase **vóór het einde van de workshop**
 - Review dit met een docent
 
+
+### 4. Voorbereiding Sprint review
+
+Als je dit nog niet klaar hebt ga dit dan nu heel snel doen!
 
 ### ✒️ Leervragen (learning journal)
 
@@ -64,5 +69,3 @@ Toepassen van de inzichten op jullie eigen project.
 2. Hoe hebben jullie DRY toegepast en waarom was dat de juiste oplossing?
 3. Wat heb je geleerd van andere teams en wat heb je direct overgenomen?
 4. Hoe draagt DRY bij aan schaalbaarheid & teamwork binnen je repo?
-
--->
