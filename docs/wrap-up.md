@@ -11,8 +11,6 @@ Het doel van deze workshop is niet alleen presenteren, maar kennis uitwisselen, 
 We gaan in rondes werken waarbij **twee teams samen zitten**.  
 Elk team laat **5–7 minuten** zien wat ze hebben gedaan, daarna volgt **kort gesprek + feedback**.
 
-We doen dit in **2 rondes**, zodat je meerdere projecten ziet én zelf kunt verbeteren.
-
 1. Team-presentaties
 2. Feedback & inspiratie
 3. Korte code-aanpassing in eigen repo
@@ -27,11 +25,14 @@ Hoe hebben jullie DRY toegepast? Laat bijvoorbeeld zien:
 - Voorbeeld: **voor & na** code fragmenten
 - Welke conventies uit de FDND docs hebben jullie gevolgd?
 
+
 **🛠️ Opdracht 1 (14–20 min per twee teams)**  
 - Team A presenteert 5–7 min  
 - Team B stelt vragen + geeft feedback 3–5 min  
 - Elk team schrijft inzichten op die je wilt onthouden (minstens 2)
 - Dan wisselen.
+
+Deze opdracht doe je in twee rondes, zodat je uit twee teams inspiratie kunt opdoen. Daarna ga je verder met het volgende onderdeel.
 
 ### 2. Feedback & inspiratie
 
@@ -43,6 +44,9 @@ Schrijf samen op het whiteboard:
 
 | Wat werkt goed in hun code? | Wat willen wij daarvan toepassen? |
 |-----------------------------|----------------------------------|
+|-----|-----|
+|-----|-----|
+|-----|-----|
 
 Maar hier user stories van op jullie projectboard. Dit kan prima een "Als developer wil ik.... zodat mijn codebase beter onderhoudbaar is" story zijn. 
 
